@@ -1,26 +1,36 @@
 import React, { Component } from "react";
-import LogoWeb from "./Header/Logo/LogoWeb";
-import Menu from "./Header/Menu/Menu";
-import Right from "./Header/Right/Right";
+import Banner from "./component/Banner/Banner";
+import Logo from "./component/Header/Logo/Logo";
+import Menu from "./component/Header/Menu/Menu";
+import Right from "./component/Header/Right/Right";
+import Introduce from "./component/Introduce/Introduce";
+import NewProduct from "./component/NewProduct/NewProduct";
 
 class App extends Component {
   render() {
     return (
-      // <div className={`w-full block z-50 fixed top-0 bg-white`} id="header">
-      //   <div className="w-full flex px-2 py-1">
-      //     <HeaderLeft />
-      //     <HeaderCenter />
-      //     <HeaderRight />
-      //   </div>
-      // </div>
-
-      <div className="header">
-        <div className="header-bar">
-          <LogoWeb />
-          <Menu />
-          <Right />
+      <>
+        <div className="header">
+          <div className="header-bar">
+            <Logo />
+            <Menu />
+            <Right />
+          </div>
         </div>
-      </div>
+        <div className="advertisement">
+          <Banner />
+        </div>
+        <div className="product-introduction">
+          <div className="about-product">
+            <Introduce />
+          </div>
+        </div>
+        <div className="new-product">
+          <div className="new-item-product">
+            <NewProduct />
+          </div>
+        </div>
+      </>
     );
   }
 }
