@@ -39,11 +39,11 @@ class Introduce extends Component {
             <i className="fas fa-star"></i>
           </p>
         </div>
-        <div class="product-line">
-          <div class="col-title-product">
+        <div className="product-line">
+          <div className="col-title-product">
             <p>CÁC DÒNG SẢN PHẨM CỦA DELTA COMESTIC VIỆT NAM</p>
           </div>
-          <div class="item">
+          <div className="item">
             <CategoryProduct />
             <CategoryProduct />
             <CategoryProduct />

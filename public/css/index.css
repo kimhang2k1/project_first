@@ -196,7 +196,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#distributors {
+.distributors {
   margin-top: 5em;
 }
 .title img {
@@ -273,14 +273,14 @@
   color: gray;
   font-family: "Font Awesome 5 Free";
 }
-#product-trend {
+.product-trend {
   margin-top: 10em;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.07);
   padding-bottom: 5em;
 }
-#tips {
+.tips {
   background-image: url("http://bizweb.dktcdn.net/100/353/542/themes/717234/assets/bg-blog.jpg?1558433827852");
-  padding-bottom: 5em;
+  padding-bottom: 10em;
 }
 .the-item-product-trend {
   width: 80%;
@@ -320,7 +320,7 @@
 }
 .btn-view p {
   border: 2px solid#94e3df;
-  width: 85px;
+  width: 150px;
   margin-left: 6em;
   padding: 10px 25px;
   color: #94e3df;
@@ -360,7 +360,7 @@
   font-weight: 400;
   font-size: 17px;
 }
-#sign-up-for {
+.sign-up-for {
   margin-top: 2em;
   padding: 30px 0;
   background-image: url("http://bizweb.dktcdn.net/100/353/542/themes/717234/assets/bg-newletter.jpg?1558433827852");
@@ -390,14 +390,14 @@
   line-height: 10em;
   width: 65%;
 }
-.input-email-registration a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #44cdc7;
-  padding: 18px 45px 20px 35px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin-left: -4px;
+.input-email-registration span {
+  line-height: 6rem;
+  border: 1px solid #95e0d2;
+  background-color: #95e0d2;
+  color: whitesmoke;
+  padding: 22px;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
 }
 .input-email-registration i {
   padding-right: 5px;
@@ -414,12 +414,15 @@
   width: 100px;
   height: 1px;
   margin: 0;
+  margin-top: 5px;
+  margin-left: 3rem;
   border: 1px solid #44cdc7;
   background-color: #44cdc7;
 }
 .row-title-footer p {
   font-size: 17px;
   font-weight: 700;
+  padding-left: 4rem;
 }
 .site-footer {
   width: 80%;
