@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Footer from "./component/Footer/Footer";
-import FormLogin from "./component/Form/FormLogin";
+import FormRegist from "./component/Form/FormRegist";
 import ImageLeft from "./component/Form/ImageLeft/ImageLeft";
 import Logo from "./component/Header/Logo/Logo";
 import Menu from "./component/Header/Menu/Menu";
 import Right from "./component/Header/Right/Right";
 
-class Login extends Component {
+class SignUp extends Component {
   render() {
     return (
       <>
@@ -21,7 +21,7 @@ class Login extends Component {
           <div className="login-web">
             <ImageLeft />
             <div className="form-login" style={{ lineHeight: "3rem" }}>
-              <FormLogin />
+              <FormRegist />
             </div>
           </div>
         </div>
@@ -31,4 +31,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default SignUp;

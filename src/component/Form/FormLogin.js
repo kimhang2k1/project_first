@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import FormInput from "./Input/FormInput";
+import Button from "./Button/Button";
+import Input from "./Input/Input";
 
 class FormLogin extends Component {
   render() {
@@ -8,7 +9,13 @@ class FormLogin extends Component {
         <div className="title-form-login">
           <h2 style={{ fontSize: "28px" }}>Đăng Nhập</h2>
         </div>
-        <FormInput />
+        <form method="POST">
+          <div className="form-input-login">
+            <Input type="text" name="email" title="Email" />
+            <Input type="password" name="password" title="Mật Khẩu" />
+            <Button title="Đăng Nhập" />
+          </div>
+        </form>
         <div className="account-not-register">
           <p>
             <i>Quên Mật Khẩu?</i>
