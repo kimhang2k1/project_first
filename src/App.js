@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import Index from "./container/Home/Index";
+
+import MainRegister from "./container/General/Register/MainRegister";
 
 class App extends Component {
   render() {
-    return <Index />;
+    return <MainRegister />;
   }
 }
 

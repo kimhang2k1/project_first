@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class InputField extends Component {
   render() {
+    var { title } = this.props;
     return (
       <>
         <p>

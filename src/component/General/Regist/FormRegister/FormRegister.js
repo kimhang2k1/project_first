@@ -1,17 +1,19 @@
 import React, { Component } from "react";
-import InputField from "../Input/InputField";
+import InputField from "../../Input/InputField";
 
-class FormLogin extends Component {
+class FormRegister extends Component {
   render() {
     return (
       <form method="POST">
         <div className="form-input-login">
+          <InputField title="Tên Đăng Nhập" />
           <InputField title="Email" />
           <InputField title="Mật Khẩu" />
+          <InputField title="Nhập Lại Mật Khẩu" />
         </div>
       </form>
     );
   }
 }
 
-export default FormLogin;
+export default FormRegister;

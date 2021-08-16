@@ -220,3 +220,19 @@
 .title-form-login {
   text-align: center;
 }
+.btn-login button {
+  border: 1px solid #44cdc7;
+  background-color: #44cdc7;
+  color: white;
+  width: 170px;
+  text-align: center;
+  border-radius: 35px;
+  margin-top: 15px;
+}
+.btn-login button:hover {
+  background-color: transparent;
+  color: black;
+}
+.btn-login {
+  text-align: center;
+}
