@@ -11,8 +11,6 @@ class ColorProduct extends Component {
         <ItemColorProduct />
         <ItemColorProduct />
         <ItemColorProduct />
-        <ItemColorProduct />
-        <ItemColorProduct />
       </div>
     );
   }

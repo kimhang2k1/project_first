@@ -6,23 +6,48 @@ class ListImages extends Component {
     return (
       <div
         className="image-decription-product"
-        style="position:relative;margin-top:-1rem;"
+        style={{ position: "relative", marginTop: "-1rem" }}
       >
-        <span onclick="previousImage()">
+        <span>
           <i
-            class="fas fa-chevron-circle-left"
-            style="font-size: 33px;cursor: pointer;
-                        position: absolute;top: 50%;z-index: 1000;left:0;color:gray;"
+            className="fas fa-chevron-circle-left"
+            style={{
+              fontSize: "33px",
+              cursor: "pointer",
+              position: "absolute",
+              top: "50%",
+              zIndex: 1000,
+              left: 0,
+              color: "gray",
+            }}
           ></i>
         </span>
         <br />
-        <span onclick="nextImage()">
+        <span>
           <i
-            class="fas fa-chevron-circle-right"
-            style="font-size: 33px; cursor: pointer;position: absolute;top: 50%;z-index: 1000;right:0;color:gray;"
+            className="fas fa-chevron-circle-right"
+            style={{
+              fontSize: "33px",
+              cursor: "pointer",
+              position: "absolute",
+              top: "50%",
+              zIndex: 1000,
+              right: 0,
+              color: "gray",
+            }}
           ></i>
         </span>
-        <ul style="max-width: 344px;display:inline-flex;position:relative;list-style:none;padding:0;margin:0;overflow-x:hidden;">
+        <ul
+          style={{
+            maxWidth: "344px",
+            display: "inline-flex",
+            position: "relative",
+            listStyle: "none",
+            padding: 0,
+            margin: 0,
+            overflowX: "hidden",
+          }}
+        >
           <ItemImages />
           <ItemImages />
           <ItemImages />

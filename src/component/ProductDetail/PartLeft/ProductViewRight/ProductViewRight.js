@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import ImageProductMain from "../ProductViewLeft/ImageProductMain/ImageProductMain";
-import ListImages from "../ProductViewLeft/ListImages/ListImages";
+import Amount from "./Amount/Amount";
+import Brand from "./Brand/Brand";
 import ColorProduct from "./ColorProduct/ColorProduct";
-import PriceProduct from "./PriceProduct/PriceProduct";
-import ProductName from "./ProductName/ProductName";
 
 class ProductViewRight extends Component {
   render() {
     return (
       <div className="information">
         <div className="name">
-          <p style="margin:0;">Son Kem Lì Black Rouge Velet Tint Version 1</p>
+          <p style={{ margin: 0 }}>
+            Son Kem Lì Black Rouge Velet Tint Version 1
+          </p>
         </div>
         <Brand />
         <div className="price">
@@ -20,17 +20,15 @@ class ProductViewRight extends Component {
         <ColorProduct />
         <Amount />
         <div className="buy-product-detail">
-          <p style="margin-top:2rem;">
+          <p style={{ marginTop: "2rem" }}>
             <span>
               <i
-                class="fas fa-cart-plus"
-                style="padding-right: 1rem; font-size: 16px;"
+                className="fas fa-cart-plus"
+                style={{ paddingRight: "1rem", fontSize: "16px" }}
               ></i>
               Thêm vào giỏ hàng{" "}
             </span>
-            <a href="" style="background-color:red;color:#fff;">
-              Mua Ngay{" "}
-            </a>
+            <button>Mua Ngay</button>
           </p>
         </div>
       </div>

@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-
-import MainRegister from "./container/General/Register/MainRegister";
+import MainCart from "./container/Cart/MainCart";
 
 class App extends Component {
   render() {
-    return <MainRegister />;
+    return <MainCart />;
   }
 }
 

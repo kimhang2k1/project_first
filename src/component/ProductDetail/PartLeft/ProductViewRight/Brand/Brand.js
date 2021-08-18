@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Brand extends Component {
   render() {
     return (
-      <div className="rate">
+      <div className="rate" style={{ lineHeight: "3rem" }}>
         <ul
           style={{ display: "inline-flex", listStyle: "none", color: "orange" }}
         >
