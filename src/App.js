@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import MainCart from "./container/Cart/MainCart";
+import MainProduct from "./container/Product/MainProduct";
 
 class App extends Component {
   render() {
-    return <MainCart />;
+    return <MainProduct />;
   }
 }
 

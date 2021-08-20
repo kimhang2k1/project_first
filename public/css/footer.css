@@ -10,6 +10,7 @@
 .row-title-footer p {
   font-size: 17px;
   font-weight: 700;
+  padding-left: "4rem";
 }
 .site-footer {
   width: 80%;
